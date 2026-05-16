@@ -1,7 +1,7 @@
 import { useState } from 'react';
 
 import HelpArea from './HelpArea';
-
+// added a comment to this file to skip triggering the workflow
 function MainContent() {
   const [helpVisible, setHelpVisible] = useState(false);
 
